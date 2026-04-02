@@ -1,0 +1,12 @@
+# Real-Time Object Detection with YOLO26
+# ----------------------------------------
+# Install PyTorch with CUDA support first (adjust cu version for your system):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+#
+# Then install the rest:
+#   pip install -r requirements.txt
+
+ultralytics>=8.4.0
+streamlit>=1.42.0
+opencv-python-headless>=4.10.0
+numpy>=1.26.0
